@@ -1,1 +1,1 @@
-# asc-class
+Laboratoare ASC. Echipa Ciurea Razvan + Roman Alexandru
