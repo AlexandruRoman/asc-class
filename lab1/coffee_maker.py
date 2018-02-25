@@ -3,7 +3,7 @@ import sys
 print "I'm a simple coffee maker"
 print "Press enter"
 sys.stdin.readline()
-print "Teach me how to make coffee...please..."
+print "Teach me how to make coffee...please..." 
 
 """ 
 Implement the coffee maker's commands. Interact with the user via stdin and print to stdout.
