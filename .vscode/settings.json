@@ -1,0 +1,11 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.linting.pep8Enabled": false,
+    "python.linting.pylintArgs": [
+        "--rcfile=/path/to/.pylintrc"
+],
+"python.pythonPath": "C:\\Python27\\python.exe"
+}

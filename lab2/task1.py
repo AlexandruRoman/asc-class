@@ -12,3 +12,21 @@
 #   drept nume al thread-ului, afisati-l ca la punctul b)
 #   * hint: folositi campul 'name' al constructorului clasei Thread
 
+from threading import *
+
+
+def afiseaza(dict):
+    # print "hello, i'm thread ", dict['index'] , " ", dict['mesaj']
+    print current_thread().getName()
+
+thread_list = []
+
+# pornim thread-urile
+for i in xrange(10):
+    thread = Thread(target = afiseaza, name="efe", args = ({"index": i, "mesaj":"random message"}, ))
+    thread.start()
+    thread_list.append(thread)
+ 
+# asteptam terminarea thread-urilor
+for i in xrange(len(thread_list)):
+    thread_list[i].join()
